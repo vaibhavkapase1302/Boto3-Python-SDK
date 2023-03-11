@@ -107,3 +107,15 @@ for i in range(0,arrlen):
     print(response['Contents'][i]['Key'])
 
 ```
+
+### Download the filee from S3 Bucket:
+
+```js
+import boto3
+ 
+s3 = boto3.client('s3')
+ 
+response = s3.download_file('my-s2-vaibhav','NoVPC.yaml','sample111.yml')
+print(response)
+
+````
