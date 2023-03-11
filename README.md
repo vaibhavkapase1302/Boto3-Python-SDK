@@ -115,7 +115,7 @@ import boto3
  
 s3 = boto3.client('s3')
  
-response = s3.download_file('my-s2-vaibhav','NoVPC.yaml','sample111.yml')
+response = s3.download_file('my-s2-vaibhav','boto.py','sample.py')
 print(response)
 
 ````
