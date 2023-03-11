@@ -71,7 +71,7 @@ import boto3
  
 s3 = boto3.client('s3')
  
-response = s3.create_bucket(Bucket='cnad-16-01-2023-python',CreateBucketConfiguration={'LocationConstraint': 'ap-south-1'})
+response = s3.create_bucket(Bucket='mybucket-vaibhav',CreateBucketConfiguration={'LocationConstraint': 'ap-south-1'})
 print(response)
 
 ```
