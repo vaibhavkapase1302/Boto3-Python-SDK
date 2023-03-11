@@ -119,3 +119,15 @@ response = s3.download_file('my-s2-vaibhav','boto.py','sample.py')
 print(response)
 
 ````
+
+### Delete object from Bucket:
+
+```js
+import boto3
+ 
+s3 = boto3.client('s3')
+ 
+response = s3.delete_object(Bucket='my-s2-vaibhav',Key='boto.py')
+print(response)
+
+```
