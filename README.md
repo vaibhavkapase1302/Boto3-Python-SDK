@@ -120,7 +120,7 @@ print(response)
 
 ````
 
-### Delete object from Bucket:
+### Delete object from S3 Bucket:
 
 ```js
 import boto3
@@ -128,6 +128,33 @@ import boto3
 s3 = boto3.client('s3')
  
 response = s3.delete_object(Bucket='my-s2-vaibhav',Key='boto.py')
+print(response)
+
+```
+
+### Delete Multiple objects from S3 Bucket:
+
+```js
+import boto3
+ 
+s3 = boto3.client('s3')
+ 
+response = s3.delete_objects(Bucket='my-s2-vaibhav',Delete={
+        'Objects': [
+            {
+                'Key': 't1.txt',
+            },
+            {
+                'Key': 't2.txt',
+            },
+            {
+                'Key': 't3.txt',
+            },
+            {
+                'Key': 't4.txt',
+            },
+        ],
+    })
 print(response)
 
 ```
