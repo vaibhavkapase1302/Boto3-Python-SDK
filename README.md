@@ -108,7 +108,7 @@ for i in range(0,arrlen):
 
 ```
 
-### Download the filee from S3 Bucket:
+### Download the file from S3 Bucket:
 
 ```js
 import boto3
