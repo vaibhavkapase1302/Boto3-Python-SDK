@@ -6,7 +6,7 @@ Here is the code of Boto3 SDK for AWS services like EC2, IAM, S3, DynamoDB and o
 * Boto3 is maintained and published by Amazon Web Services.
 * Boto3 allows us to directly create, update, and delete AWS services from our Python scripts.
 
-<a href="https://boto3.amazonaws.com/v1/documentation/api/1.14.0/index.html">Boto3 Documantation</a
+<a href="https://boto3.amazonaws.com/v1/documentation/api/1.14.0/index.html"> Boto3 Documantation</a
 
 ## Installation:
 Install the latest Boto3 release via pip:
